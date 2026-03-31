@@ -1,9 +1,9 @@
-# FluxVault
+# SpaghettiVault
 
 One-click DeFi yield vault for Pacifica perpetuals.
 
 ## Overview
-FluxVault lets users deposit USDC, authorize a builder code once, and run an automated funding-rate carry strategy on SOL-PERP.
+SpaghettiVault lets users deposit USDC, authorize a builder code once, and run an automated funding-rate carry strategy on SOL-PERP.
 
 ## Repo Layout
 - `backend/`: FastAPI API, Pacifica integration, strategy loop, and SQLite state.

@@ -10,7 +10,7 @@ export default function LandingPage() {
 
           <p className="cyber-title text-xs text-orange-300/90 md:text-sm">Pacifica Builder Vault</p>
           <h1 className="mt-3 max-w-4xl text-4xl font-extrabold leading-tight md:text-6xl">
-            FluxVault // Funding Engine
+            SpaghettiVault // Funding Engine
           </h1>
           <p className="cyber-muted mt-4 max-w-2xl text-lg leading-relaxed">
             Deploy USDC. Authorize once. Harvest perp funding with automated short exposure and risk guardrails.

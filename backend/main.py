@@ -34,7 +34,7 @@ async def lifespan(app: FastAPI):
     task.cancel()
 
 
-app = FastAPI(title="FluxVault API", lifespan=lifespan)
+app = FastAPI(title="SpaghettiVault API", lifespan=lifespan)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=frontend_origins,

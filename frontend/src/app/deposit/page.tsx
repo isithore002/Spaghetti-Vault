@@ -89,7 +89,7 @@ export default function DepositPage() {
   if (!authenticated) {
     return (
       <div className="cyber-shell flex min-h-screen flex-col items-center justify-center p-6">
-        <h1 className="font-cyber text-5xl font-bold">FluxVault</h1>
+        <h1 className="font-cyber text-5xl font-bold">SpaghettiVault</h1>
         <p className="cyber-muted mt-2">Enter the funding-rate vault interface</p>
         <div className="mt-8">
           <WalletButton
@@ -106,7 +106,7 @@ export default function DepositPage() {
   return (
     <div className="cyber-shell flex min-h-screen items-center justify-center p-6">
       <div className="cyber-panel w-full max-w-md space-y-6 rounded-3xl p-8 backdrop-blur-sm">
-        <h2 className="font-cyber text-2xl font-semibold">Deposit // FluxVault</h2>
+        <h2 className="font-cyber text-2xl font-semibold">Deposit // SpaghettiVault</h2>
         <p className="cyber-muted text-sm">
           Connected: {walletAddress?.slice(0, 6)}...{walletAddress?.slice(-4)}
         </p>

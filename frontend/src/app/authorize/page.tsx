@@ -67,7 +67,7 @@ export default function AuthorizePage() {
 
   async function handleApprove() {
     if (!walletAddress || !walletSupported) {
-      setStatus('Connect a Solana wallet to authorize FluxVault on Pacifica.');
+      setStatus('Connect a Solana wallet to authorize SpaghettiVault on Pacifica.');
       return;
     }
     setLoading(true);
@@ -138,7 +138,7 @@ export default function AuthorizePage() {
 
         <div className="space-y-3 rounded-xl border border-orange-400/30 bg-orange-500/5 p-5 text-sm">
           <p className="cyber-muted leading-relaxed">
-            FluxVault uses Pacifica Builder Program permissions to trade on your behalf. You can revoke at any time.
+            SpaghettiVault uses Pacifica Builder Program permissions to trade on your behalf. You can revoke at any time.
           </p>
           <div className="flex justify-between">
             <span className="cyber-muted">Builder code</span>
