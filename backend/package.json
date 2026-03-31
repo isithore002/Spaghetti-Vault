@@ -1,0 +1,8 @@
+{
+  "name": "fluxvault-backend",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "server": ".\\.venv\\Scripts\\python -m uvicorn main:app --reload --port 8000"
+  }
+}
