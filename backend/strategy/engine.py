@@ -9,7 +9,7 @@ from pacifica.client import PacificaClient
 from strategy.risk import RiskEngine
 from vault.db import VaultDB
 
-logger = logging.getLogger("fluxvault.strategy")
+logger = logging.getLogger("spaghettivault.strategy")
 
 FUNDING_THRESHOLD = float(os.getenv("FUNDING_RATE_THRESHOLD", "0.0001"))
 MAX_LEVERAGE = int(os.getenv("MAX_LEVERAGE", "3"))
@@ -24,7 +24,7 @@ class StrategyEngine:
             raise ValueError("VAULT_PRIVATE_KEY not set in environment")
 
         self.keypair = Keypair.from_bytes(base58.b58decode(private_key_b58))
-        self.builder_code = os.getenv("VAULT_BUILDER_CODE", "FLUXVAULT1")
+        self.builder_code = os.getenv("VAULT_BUILDER_CODE", "SPAGHETTIVAULT1")
         self.client = PacificaClient(self.keypair, self.builder_code)
         self.risk = RiskEngine(self.client)
         self.db = VaultDB()

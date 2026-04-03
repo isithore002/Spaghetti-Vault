@@ -1,7 +1,7 @@
 import logging
 import os
 
-logger = logging.getLogger("fluxvault.risk")
+logger = logging.getLogger("spaghettivault.risk")
 
 STOP_LOSS_PCT = float(os.getenv("STOP_LOSS_PCT", "0.05"))
 MARGIN_HEALTH_MIN = float(os.getenv("MARGIN_HEALTH_MIN", "0.25"))

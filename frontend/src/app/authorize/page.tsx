@@ -8,7 +8,7 @@ import { buildSigningMessage, isPacificaAccount } from '@/lib/pacifica';
 import { RevokeButton } from '@/components/RevokeButton';
 import { useAuth } from '@/hooks/useAuth';
 
-const BUILDER_CODE = 'FLUXVAULT1';
+const BUILDER_CODE = 'SPAGHETTIVAULT1';
 const MAX_FEE_RATE = '0.001';
 
 function buildApprovalMessage(timestamp: number): object {

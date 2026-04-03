@@ -1,0 +1,17 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python.defaultInterpreterPath": "h:/fluxvault/backend/.venv/Scripts/python.exe",
+    "cSpell.words": [
+        "annualised",
+        "APIRouter",
+        "base58",
+        "dotenv",
+        "keypair",
+        "pacifica",
+        "Privy",
+        "spaghettivault",
+        "uvicorn",
+        "websocket",
+        "websockets"
+    ]
+}

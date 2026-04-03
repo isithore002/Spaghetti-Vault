@@ -14,7 +14,7 @@ export async function deposit(wallet: string, amount: number) {
 
 export async function checkApproval(account: string) {
   if (!isPacificaAccount(account)) {
-    return { approved: false, builder_code: 'FLUXVAULT1' };
+    return { approved: false, builder_code: 'SPAGHETTIVAULT1' };
   }
   const { data } = await api.get(`/builder/check?account=${account}`);
   return data as { approved: boolean; builder_code: string };
